@@ -1,2 +1,1 @@
-# luis_llovoven
-4166 Development
+This is the initial README file for the course
