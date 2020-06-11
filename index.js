@@ -12,4 +12,15 @@ $(document).ready(function() {
         $('#background3').on('click', function() {
             document.getElementById("bg-img").style.backgroundImage = "url('grab.jpg')";
         })
+        $("#blogentry2").bxSlider({
+            auto: true,
+            mode: 'fade',
+            slideWidth: 600,
+            slideMargin: 4,
+            moveSlides: 1,
+            maxSlides: 1,
+            speed: 1000,
+            pause: 3000,
+            controls: true,
+        });
 });
