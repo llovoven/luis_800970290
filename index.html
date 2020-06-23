@@ -4,6 +4,10 @@
     <meta charset="UTF-8">	
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
     <header>
@@ -11,9 +15,16 @@
             <a href="index.html">
                 <img src="logo.PNG" alt="Venture Skates Logo" class="logo">
             </a>
-            <ul>
+            <ul id="navfonts">
                 <li><a href="#" id="font-resizer">Font Resizer</a></li>
-                <li><a href="#" id="style-switcher">Style Switcher</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Style Switcher</button>
+                    <div class="dropdown-content">
+                        <a href="#" id="background1">Change to first image</a>
+                        <a href="#" id="background2">Change to second image</a>
+                        <a href="#" id="background3">Change to third image</a>
+                    </div>
+                    </div> 
                 <li><a href="admin/login.html" id="admin-login">Admin Login</a></li>
             </ul>  
             <div id="bg-img"></div> 
