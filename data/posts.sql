@@ -1,0 +1,4 @@
+CREATE TABLE Posts (
+  Title VARCHAR(100) PRIMARY KEY NOT NULL,
+  Content TEXT NOT NULL
+  );
